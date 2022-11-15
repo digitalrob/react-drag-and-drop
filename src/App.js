@@ -62,17 +62,16 @@ function App() {
           y: posLogo.y,
           touchAction: 'none',
         }} >
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={"https://assets.pokemon.com/static2/_ui/img/chrome/external_link_bumper.png"} className="App-logo" alt="logo" />
         </animated.div>
 
         <animated.div {...bindP()} style={{
           x: posP.x,
           y: posP.y,
           touchAction: 'none',
+          backgroundColor: "transparent"
         }} >
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+          <img src={"https://w7.pngwing.com/pngs/677/720/png-transparent-snorlax-pokemon-go-peluche.png"} className="App-logo" alt="logo" />
         </animated.div>
         <animated.div {...bindA()} style={{
           x: posA.x,
